@@ -1016,7 +1016,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style >
 .zmdi:before{
   width: 18px;
   height:18px
@@ -1043,9 +1043,18 @@ height: 35px;
     
     background-color: #fff;
 }
-.content {
-    background-color: #f7f7f7!important;
+
+.joint-selection.joint-theme-material .handle.remove:after{
+      color: #717d98!important;
 }
+/* .snapline.horizontal {
+    border-bottom: 1px solid green;
+    box-shadow: 0 0 2px black;
+}
+.snapline.vertical {
+    border-bottom: 1px solid green;
+    box-shadow: 0 0 2px black;
+} */
 .joint-stencil {
     position: absolute;
     top: 0;

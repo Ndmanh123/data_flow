@@ -104,4 +104,12 @@ export default {
 .elements.joint-paper.joint-theme-default{
     width:100% !important;
 }
+.snapline.horizontal {
+    border-bottom: 1px solid #2ecc71 !important;
+    
+}
+.snapline.vertical {
+    border-right: 1px solid #2ecc71 !important;
+    
+}
 </style>
