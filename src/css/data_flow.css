@@ -1,0 +1,114 @@
+html, body {
+    background-color: #FAFAFA;
+}
+#app {
+    
+    width: 1000px;
+}
+#main{
+    width: 100vw;
+}
+#paper {
+    /* border: 1px solid rgb(211, 211, 211); */
+    background-color: white;
+    /* margin-left: -1px; */
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    height: 75vh;
+}
+#paper .selection-box {
+    display: none;
+}
+.content{
+    width: 100%;
+   overflow: hidden !important;
+}
+
+#stencil {
+   position: relative;
+   width: 100%;
+   
+   height: 60px !important;
+   float: left;
+}
+.elements>svg{
+    margin-top: -7px;
+}
+svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -7px; */
+}
+/* Element Tools */
+.joint-tool[data-tool-name="button"] circle {
+    fill: #187BD3;
+}
+/* Selection */
+.selection-box {
+    opacity: 0.3;
+    pointer-events: auto
+}
+.selection-wrapper {
+    padding: 16px;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+.joint-selection .handle[data-action="add-to-stencil"] {
+    width: 40px;
+    height: 25px;
+    background-size: contain;
+    top: -25px !important;
+    right: -40px !important;
+}
+
+/* .onchose{
+    border: 1px solid orange;
+} */
+.joint-paper-scroller>.paper-scroller-background {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.joint-paper-scroller {
+    position: relative;
+    overflow: scroll;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+image{
+    border: 2px solid black;
+}
+rect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+rect:focus{
+    border: 1px solid orange;
+}
+.joint-paper-scroller.joint-theme-default{
+    height: 100%!important;
+    width: 100%!important;
+    
+}
+
+.paper-scroller-background>.joint-paper.joint-theme-default{
+    /* height: 600px;
+    width: 800px; */
+    /* left: 50px !important;
+    top: 50px !important; */
+}
+.paper-scroller-background{
+    /* height: 900px !important;
+    width: 2400px !important; */
+}
+.joint-link:hover >path{
+    stroke:rgb(255 136 0);
+    stroke-width:2;
+    /* cursor: ; */
+}
