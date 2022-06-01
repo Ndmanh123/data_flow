@@ -112,4 +112,24 @@ export default {
     border-right: 1px solid #2ecc71 !important;
     
 }
+.joint-halo.joint-theme-default .handle.remove{
+  background-image: url(./assets/close.png)!important;
+  
+}
+.joint-halo.joint-theme-default .handle.clone{
+  background-image: url(./assets/clone.png)!important;
+  
+}
+.joint-halo.joint-theme-default .handle.link{
+  background-image: url(./assets/right-arrow.png)!important;
+  
+}
+.joint-halo.joint-theme-default .handle.fork{
+  background-image: url(./assets/fork.png)!important;
+  
+}
+.joint-halo.joint-theme-default .handle.unlink{
+  background-image: url(./assets/unlink.png)!important;
+  
+}
 </style>
